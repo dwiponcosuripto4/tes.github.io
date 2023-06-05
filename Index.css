@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  
+  }
+  nav {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  
+  
+  .navbar ul li {
+    margin-left: 10px;
+  }
+  
+  .navbar ul li:first-child {
+    margin-left: 10px;
+  }
+  
+  .navbar ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .card figure {
+    margin: 0;
+  }
+  
+  .card figure img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .card p {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  ul {
+    color: gray;
+  }
+  
+  .card p {
+    text-align: center;
+  }
+  
+  .simbol {
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left #greeting {
+    margin-right: 5px;
+  }
+  
+  #salam,
+  #date,
+  #time {
+    font-weight: bold;
+  }
